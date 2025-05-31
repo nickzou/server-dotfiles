@@ -7,6 +7,7 @@ alias cat='batcat'
 export PATH="/usr/local/bin:$PATH"
 export GREP_OPTIONS='--color=always'
 export EDITOR="nvim"
+alias find='fdfind'
 eval "$(zoxide init --cmd cd zsh)"
 # A simple prompt
 PROMPT='%F{green}%n%F{yellow}@%F{blue}%m %F{cyan}%~%f$ '
