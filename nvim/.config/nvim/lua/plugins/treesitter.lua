@@ -20,6 +20,8 @@ return {
                 "tsx",
                 "markdown",
                 "markdown_inline",
+                "jinja",
+                "jinja_inline",
             },
             sync_install = false,
             auto_install = true,
